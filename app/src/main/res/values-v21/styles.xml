@@ -6,4 +6,10 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
     </style>
+
+
+    <style name="LoginActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#283593</item>
+    </style>
 </resources>
