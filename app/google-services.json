@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_id": "webprms",
+    "project_number": "321887118967",
+    "name": "WebPRMS"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321887118967:android:19e2514dff658e34",
+        "client_id": "android:app.voodoo.webpmrs",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "app.voodoo.webpmrs",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321887118967:android:a5d290e8472e6758",
+        "client_id": "android:app.voodoo.webprms",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "app.voodoo.webprms",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

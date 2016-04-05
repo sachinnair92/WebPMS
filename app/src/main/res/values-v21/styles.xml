@@ -9,7 +9,7 @@
 
 
     <style name="LoginActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">#3F51B5</item>
-        <item name="colorPrimaryDark">#283593</item>
+        <item name="colorPrimary">#BA68C8</item>
+        <item name="colorPrimaryDark">#AB47BC</item>
     </style>
 </resources>

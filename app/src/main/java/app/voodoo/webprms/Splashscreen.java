@@ -1,10 +1,12 @@
-package app.voodoo.webpms;
+package app.voodoo.webprms;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
+
+import app.voodoo.webprms.R;
 
 /**
  * Created by voodoo on 4/4/16.
@@ -20,7 +22,7 @@ public class Splashscreen extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(10000);
+                    sleep(1000);
                     Intent startMainScreen = new Intent(getApplicationContext(),LoginPageActivity.class);
                     startActivity(startMainScreen);
                     finish();

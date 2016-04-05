@@ -1,4 +1,4 @@
-package app.voodoo.webpms;
+package app.voodoo.webprms;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -13,61 +13,31 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/imageView2" />
 
-    <EditText
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        android:hint="Email address:"
-        android:textColorLink="#ffffff"
-        android:textColorHighlight="#ffffff"
-        android:textColorHint="#ffffff"
-        android:textSize="20dp"
-        android:id="@+id/editText"
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="196dp"
         android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="171dp" />
+        android:layout_centerHorizontal="true" />
 
-    <FrameLayout
-        android:layout_width="300dp"
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="false"
-        android:id="@+id/frameLayout"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:text="  connect_with_facebook" />
 
-
-        <Button
-        android:id="@+id/searchBtn"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_gravity="left"
-        android:layout_marginLeft="10dp"
-            android:layout_marginBottom="0dp"
-        android:paddingBottom="0dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignTop="@+id/search"
-        android:background="@drawable/ic_email"
-        android:layout_alignStart="@+id/editText" />
-
-        <EditText
-            android:id="@+id/search"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:drawablePadding="8dp"
-            android:paddingLeft="50dp"
-            android:paddingBottom="18dp"
-            android:paddingRight="10dp"
-            android:singleLine="true"
-            android:textColor="#ffffff"
-            android:hint="Email address:"
-            android:textColorLink="#ffffff"
-            android:textColorHighlight="#ffffff"
-            android:textColorHint="#ffffff"
-            android:textSize="20dp"
-            android:layout_gravity="center_horizontal|top"
-            android:layout_alignTop="@+id/frameLayout"
-            android:layout_alignStart="@+id/editText">
-            <requestFocus />
-        </EditText>
-    </FrameLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/login_button1"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_alignStart="@+id/login_button"
+        android:layout_marginTop="76dp" />
 
 </RelativeLayout>

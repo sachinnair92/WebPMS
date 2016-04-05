@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">WebPMS</string>
+    <string name="app_name">WebPRMS</string>
     <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1752180345068695</string>
 </resources>

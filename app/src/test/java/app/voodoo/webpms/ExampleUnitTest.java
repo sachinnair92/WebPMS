@@ -1,4 +1,4 @@
-package app.voodoo.webpms;
+package app.voodoo.webprms;
 
 import org.junit.Test;
 
